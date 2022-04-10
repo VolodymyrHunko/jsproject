@@ -14,7 +14,8 @@ tsc --version
 <!-- See: all versions -->
 npm init -y
 <!-- See: package.json file has created  -->
-npm install --save selenium-webdriver chromedriver bunyan logger cucumber-console-formatter eslint gherkin-lint multiple-cucumber-html-reporter prettier chai
+npm install --save selenium-webdriver chromedriver assert
+<!-- bunyan logger cucumber-console-formatter eslint gherkin-lint multiple-cucumber-html-reporter prettier chai cucumber/cucumber typescript ts-node  -->
 <!-- See: packaje-lock.json file has created, node_modules folder has created, pacaje.json has updated -->
 
 <!-- Crdate folder for TScestcases with sample file, open terminal there, run command -->
