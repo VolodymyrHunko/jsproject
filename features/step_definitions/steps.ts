@@ -15,6 +15,7 @@ Then(
   "I should have heard {string}",
   function (this: MyWorld, expectedResponse: string) {
     assert.equal(this.whatIHeard, expectedResponse);
+
   }
 );
 
