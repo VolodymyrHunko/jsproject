@@ -1,0 +1,28 @@
+{
+  "name": "jsproject",
+  "version": "1.0.0",
+  "description": "Sample project for JScript learning: settings base on https://www.lambdatest.com/blog/automation-testing-with-selenium-javascript/ Sample project for TypeScript Cucumber lerning: https://qamind.com/blog/write-selenium-and-cucumber-framework-from-scratch/",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolodymyrHunko/jsproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolodymyrHunko/jsproject/issues"
+  },
+  "homepage": "https://github.com/VolodymyrHunko/jsproject#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0",
+    "chromedriver": "^100.0.0",
+    "selenium-webdriver": "^4.1.1"
+  },
+  "dependencies": {
+    "assert": "^2.0.0"
+  }
+}
